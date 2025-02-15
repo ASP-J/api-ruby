@@ -1,0 +1,45 @@
+# Ignore environment files
+.env
+.env.*
+
+# Ignore Docker-related files
+docker-compose.yml
+Dockerfile
+
+# Ignore log files and temp files
+/log/*
+/tmp/*
+!/log/.keep
+!/tmp/.keep
+
+# Ignore pidfiles, but keep the directory
+/tmp/pids/*
+!/tmp/pids/
+!/tmp/pids/.keep
+
+# Ignore storage (uploaded files in development and any SQLite databases)
+/storage/*
+!/storage/.keep
+/tmp/storage/*
+!/tmp/storage/
+!/tmp/storage/.keep
+
+# Ignore bundler config
+.bundle
+
+# Ignore master key for decrypting credentials and more
+/config/credentials.yml.enc
+/config/master.key
+
+# Ignore node_modules
+node_modules/
+
+# Ignore vendor
+/vendor/bundle
+/vendor/cache
+/vendor/assets
+
+# Ignore database schema
+/db/schema.rb
+
+# Ignore any other files or directories you want to exclude
